@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1411cb36-0a6f-42e6-969a-61e9a5fd41d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ShotChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopNavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/images/nba-logoman-word-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/nba-logoman-word-white.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571528692558</updated>
       <workItem from="1571528696465" duration="59000" />
-      <workItem from="1571535697504" duration="1526000" />
+      <workItem from="1571535697504" duration="2017000" />
     </task>
     <servers />
   </component>
@@ -80,5 +82,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/ShotChart.js</url>
+          <line>30</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
