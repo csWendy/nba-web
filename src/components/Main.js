@@ -1,29 +1,32 @@
 import React from 'react';
 import { ShotChart } from './ShotChart';
 import { Profile } from './Profile';
+import { DataViewContainer } from './DataViewContainer';
 import nba from 'nba';
 
 export class Main extends React.Component {
     state = {
+        playerId: 201939,
         playerInfo: {},
     }
     componentDidMount() {
-        window.nba = nba;
-        nba.stats.playerInfo({ PlayerID: 201939})
-            .then((response) => {
-                console.log(response);
-                const { commonPlayerInfo, playerHeadlineStats } = response;
-                const playerInfo = { ...commonPlayerInfo[0], ...playerHeadlineStats[0] };
-                console.log(playerInfo);
+        nba.stats.playerInfo({ PlayerID: this.state.playerId })
+            .then((info) => {
+                const playerInfo = Object.assign({},
+                    info.commonPlayerInfo[0], info.playerHeadlineStats[0]);
+                console.log("final player info", playerInfo);
                 this.setState({ playerInfo });
+            })
+            .catch((e) => {
+                console.log(e);
             });
     }
 
     render() {
         return (
             <div className="main">
-                <Profile playerInfo={this.state.playerInfo} />
-                <ShotChart playerId={201939} />
+                <Profile playerInfo={this.state.playerInfo}/>
+                <DataViewContainer playerId={this.state.playerId}/>
             </div>
         );
     }

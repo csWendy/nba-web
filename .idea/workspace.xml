@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1411cb36-0a6f-42e6-969a-61e9a5fd41d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CountSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DataViewContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShotChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShotChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571528692558</updated>
       <workItem from="1571528696465" duration="59000" />
-      <workItem from="1571535697504" duration="2994000" />
+      <workItem from="1571535697504" duration="3082000" />
     </task>
     <servers />
   </component>
